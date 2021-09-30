@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'io.rqndomhax'
+version '1.0-SNAPSHOT'
+description 'Random number generator by RqndomHax'
+
+compileJava.getOptions().setEncoding("UTF-8")
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+java {
+    withJavadocJar()
+    withSourcesJar()
+}
